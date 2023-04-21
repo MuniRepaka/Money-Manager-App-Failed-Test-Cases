@@ -1,0 +1,90 @@
+.bg-container {
+  padding: 50px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  background-size: cover;
+  border-radius: 25px;
+  color: #475569;
+  font-family: 'roboto';
+}
+.heading {
+  padding-top: 20px;
+}
+.input-display-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.input-container {
+  width: 40vw;
+  padding: 20px;
+  border: #7e858e 2px solid;
+  border-radius: 25px;
+}
+.sub-container-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+.label {
+  font-family: 'roboto';
+  color: #7e858e;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.input-box {
+  height: 50px;
+  min-width: 100%;
+  border: #7e858e 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.input-box::placeholder {
+  font-family: 'roboto';
+  color: #7e858e;
+  font-size: 15px;
+}
+.add-button {
+  height: 40px;
+  width: 80px;
+  border-width: 0px;
+  background-color: #0b69ff;
+  font-family: 'roboto';
+  color: #ffffff;
+  border-radius: 7px;
+}
+.display-container {
+  width: 50vw;
+  margin-left: 50px;
+  padding: 20px;
+  border: #7e858e 2px solid;
+  border-radius: 25px;
+}
+.header-titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'roboto';
+  color: #1e293b;
+  border: 2px solid #7e858e;
+  padding: 10px;
+  height: 60px;
+}
+.item-titles {
+  width: 30%;
+}
+.unOrdered-list {
+  padding: 0px;
+  margin: 0px;
+}
